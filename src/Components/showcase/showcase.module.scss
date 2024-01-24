@@ -1,0 +1,70 @@
+.showcase {
+  display: flex;
+  padding-block: 120px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .showcaseLeft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+      color: #242d52;
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 64px;
+      letter-spacing: -1px;
+    }
+
+    .text {
+      color: #242d52;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      opacity: 0.5025;
+      margin-top: 16px;
+    }
+
+    .btn {
+      padding: 12px 32px;
+      background-color: #f3603c;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border: none;
+      border-radius: 50px;
+      color: white;
+      width: 137px;
+      margin-top: 40px;
+    }
+  }
+
+  .showcaseRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .showcaseCharts {
+      display: flex;
+      gap: 64px;
+      align-items: center;
+    }
+
+    .showcasePercentages {
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      display: grid;
+      grid-template-columns: repeat(1fr, 2);
+      grid-template-rows: repeat(1fr, 2);
+      grid-gap: 15px;
+
+      .showcasePerc1 {
+        grid-column: span 2;
+      }
+    }
+  }
+}

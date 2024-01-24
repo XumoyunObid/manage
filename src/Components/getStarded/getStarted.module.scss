@@ -1,0 +1,48 @@
+.getstarted {
+  position: relative;
+  background-color: #f3603c;
+  overflow: hidden;
+  padding: 62px 165px;
+
+  .group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: -11;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+  
+    .title {
+      color: #fff;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 44px;
+      letter-spacing: -0.714px;
+    }
+    
+    .btn {
+      width: 137px;
+      padding: 12px 32px;
+      border-radius: 50px;
+      color: #f3603c;
+      border: none;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  
+    .rec1 {
+      position: absolute;
+    }
+    
+    .rec2 {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}
+

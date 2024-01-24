@@ -1,0 +1,75 @@
+.footer {
+  background-color: #1d1e25;
+  padding: 62px 168px;
+
+  .group {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+    .socials {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .List {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+    }
+
+    .Items {
+      color: #fff;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.234px;
+    }
+
+    .formSec {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .form {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        .formInput {
+          padding: 12px 40px 12px 15px;
+          border-radius: 22px;
+          background-color: #fff;
+          border: none;
+        }
+
+        .formBtn {
+          padding: 12px 24px;
+          border: none;
+          border-radius: 22px;
+          background: #f3603c;
+          color: #fcf6f5;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+
+      .copyright {
+        color: #fff;
+        text-align: right;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.203px;
+        opacity: 0.5025;
+      }
+    }
+  }
+}
